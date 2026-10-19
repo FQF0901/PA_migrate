@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.tasking.cdt.launch.localCLaunch">
+    <booleanAttribute key="com.tasking.debug.cdt.core.BREAK_ON_EXIT" value="true"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.COMMUNICATION" value="Universal Debug Access Server"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.CONFIGURATION" value="TC39xB"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.DOWNLOAD" value="true"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.FLASH_ALLOW_CUSTOMIZATION" value="false"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.FSS_ROOT" value="${project_loc}\${build_config}"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.GOTO_MAIN" value="true"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.INIT_TARGET" value="false"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.INTERRUPT_AWARE_STEPPING" value="false"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.PROGRAM_FLASH" value="true"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.RESET_TARGET" value="true"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.TARGET" value="Generic Infineon AURIX Board"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.TARGET_POLLING" value="false"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.VERIFY" value="true"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.global_variables" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;global_variables/&gt;"/>
+    <booleanAttribute key="com.tasking.debug.cdt.core.linkToProject" value="true"/>
+    <stringAttribute key="com.tasking.debug.cdt.core.pins" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;pins/&gt;"/>
+    <stringAttribute key="debugger_configuration.debug_instrument_module" value="gdi2mcdtc"/>
+    <stringAttribute key="debugger_configuration.gdi.DiGdiInitIO" value="tcpip"/>
+    <stringAttribute key="debugger_configuration.gdi.DiGdiInitIO.tcpip.host" value="localhost"/>
+    <stringAttribute key="debugger_configuration.gdi.DiGdiInitIO.tcpip.port" value="23"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.AccessPort" value="JTAG0"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.DASserver" value="UDAS"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.DasTimeOut" value="0x4000"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.Frequency" value="30000000"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.TerminateServer" value="1"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.gdi2mcd.reset.class_vector" value="0x1"/>
+    <stringAttribute key="debugger_configuration.gdi.resource.user.ConnectedServerName" value="DAS JDS TriBoard TCXXX V3.5 TB640DT0"/>
+    <stringAttribute key="debugger_configuration.goto_label" value="core0_main"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="dwn"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.ENABLE_REGISTER_BOOKKEEPING" value="false"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.ENABLE_VARIABLE_BOOKKEEPING" value="false"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="${build_config}\em_lsad_tc397.elf"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="em_lsad_tc397"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/em_lsad_tc397"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2416186836&quot; label=&quot;0x900415d4&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2416182576&quot; label=&quot;0x90040530&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2147862788&quot; label=&quot;0x8005C904&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2415919152&quot; label=&quot;0x90000030&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2415969976&quot; label=&quot;0x9000c6b8&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2415920480&quot; label=&quot;0x90000560&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2147483648&quot; label=&quot;0x80000000&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2147483648&quot; label=&quot;0x80000000&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2147483648&quot; label=&quot;0x80000000&quot;/&gt;&#13;&#10;    &lt;dwnMemoryBlockExpression address=&quot;2147996256&quot; label=&quot;0x8007D260&quot;/&gt;&#13;&#10;&lt;/memoryBlockExpressionList&gt;&#13;&#10;"/>
+</launchConfiguration>

@@ -1,0 +1,57 @@
+# ==============================================================================
+# PA_migrate
+# Only source code is tracked (.c / .h / .txt / .md / .lsl / ... plus project
+# config). Every compiler / linker / IDE build product is ignored.
+# ==============================================================================
+
+# --- Editor / workspace -------------------------------------------------------
+.vscode/
+*.code-workspace
+*.lnk
+
+# --- Build output directories (Eclipse CDT / TASKING / GNU) -------------------
+build/
+ZZZ_Intermediates/
+LIB/
+obj/
+bin/
+out/
+**/Debug/
+**/DebugLib/
+**/Library Release/
+
+# Prebuilt binary libraries (contains only *.a)
+em_lsad_tc397/lib/
+
+# --- Object / compiler intermediate files ------------------------------------
+*.o
+*.d
+*.src
+*.i
+
+# --- Libraries, executables and images ---------------------------------------
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.s19
+*.map
+*.mdf
+*.tar
+*.tar.gz
+*.zip
+*.git-id
+
+# --- Generated build system files --------------------------------------------
+makefile
+Makefile
+*.mk
+*.opt
+
+# --- Backups (linker scripts / project files are kept, only .bak dropped) -----
+*.bak
+
+# --- IDE metadata -------------------------------------------------------------
+.settings/
+*.prefs

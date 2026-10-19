@@ -1,0 +1,7 @@
+#ifndef RTW_HEADER_actuator_handshake_task_func_h_
+#define RTW_HEADER_actuator_handshake_task_func_h_
+uint8 actuator_handshake_initialize(void);
+uint8 actuator_handshake_step(void);
+#endif //RTW_HEADER_actuator_handshake_task_func_h_
+
+

@@ -1,0 +1,26 @@
+#ifndef VS_ENUM_H_
+#define VS_ENUM_H_
+
+typedef enum VS_TEST_
+{
+   VEHSRV_ZERO = 0,
+   VEHSRV_ONE,
+   VEHSRV_TWO,
+} E_VEHSRV_TEST;
+
+typedef enum VEHSRV_INIT_FLAG_
+{
+   INIT_NONE = 0,
+   POWER_ON_INIT_PROSESS,
+   POWER_ON_INIT_DONE,
+   SPECIAL_INIT_PROSESS,
+   SPECIAL_INIT_DONE,
+} E_VEHSRV_INIT_FLAG;
+
+typedef enum VEHSRV_STS_
+{
+   VEHSRV_STANDBY = 0,
+   VEHSRV_ACTIVE,
+} E_VEHSRV_STS;
+
+#endif /*VS_ENUM_H_*/

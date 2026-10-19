@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.1575990362">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.1575990362" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" errorParsers="com.infineon.aurix.buildsystem.managed.TaskingErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator" id="com.infineon.aurix.buildsystem.managed.configuration.binary.1575990362" name="Debug" parent="com.infineon.aurix.buildsystem.managed.configuration.binary">
+					<folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.1575990362." name="/" resourcePath="">
+						<toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.1343371244" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary">
+							<option id="com.tasking.ctc.cpu.2029994471" name="Processor" superClass="com.tasking.ctc.cpu" useByScannerDiscovery="false" value="tc39xb" valueType="string"/>
+							<option id="com.tasking.ctc.package.1297073226" name="Device package" superClass="com.tasking.ctc.package" useByScannerDiscovery="false" value="lfbga516" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.1366543668" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/em_lsad_tc397}/Debug" id="com.infineon.aurix.buildsystem.managed.tasking.builder.1584797573" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug.1067995227" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.1687932390" name="Defined symbols (-D)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__CPU__=tc39xb"/>
+									<listOptionValue builtIn="false" value="USING_OS_FREERTOS"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.2077312321" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/app}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/app/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/app/GlobalVar}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/app/Public}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/app/SWC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/app/app_pa_code_temp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/bsw}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_rte}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_rte/rte}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_adas}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_adas/adas}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_adas/adas/apa_shell}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_ultrasonic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_ultrasonic/mcu_ultrasonic_service_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_ultrasonic/mcu_ultrasonic_service_core/ultrasonic_interface}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_veh_msg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_veh_msg/veh_msg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_veh_msg/veh_msg/ad_intf_wrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_veh_msg/veh_msg/msg_manager}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_swc/lib_veh_msg/veh_msg/vehicle}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_uss_cdd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_uss_cdd/code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_uss_cdd/code/uss_cdd_adapter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_uss_cdd/code/uss_cdd_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/bsw/output/generated/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/bsw/source/em_bsw/ECUAL_SYS_TM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_emos/emos_mcu/emcu_application/mcumcu/}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_emos}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_emos/emos_mcu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_emos_tc397/emos}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib_inc/lib_emdc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_adas/lib_adas_adapter/vehicle_service/vehicle_interface/src}&quot;"/>
+								</option>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.integerEnumeration.243955293" name="Always use 32-bit integers for enumeration (--integer-enumeration)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.integerEnumeration" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug.1235546806" name="Optimization level: (-Ox)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug" useByScannerDiscovery="false" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.0" valueType="enumerated"/>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.tradeoff.1075449227" name="Trade-off between speed and size: (--tradeoff=)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.tradeoff" useByScannerDiscovery="false" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.tradeoff.4" valueType="enumerated"/>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging.122931858" name="Generate symbolic debug information:" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging" useByScannerDiscovery="false" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging.full" valueType="enumerated"/>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.172683627" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.2137795744" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+							</tool>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.82686526" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths.386457373" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/lib_emos/emos_mcu/emcu_application/mcumcu/}&quot;"/>
+								</option>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.64682632" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+							</tool>
+							<tool command="cctc --no-default-libraries" commandLinePattern="${COMMAND} --global-type-checking -OcLtXY --user-provided-initialization-code --map-file -Wl--whole-archive=&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_bsw.a}&quot;  ${FLAGS}   ${OUTPUT_FLAG}&quot;${BuildArtifactFileBaseName}.elf&quot; -Wl${OUTPUT_FLAG}&quot;${BuildArtifactFileBaseName}.s19:SREC&quot;  ${INPUTS}" id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.70531426" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.libraries.libraries.2022541355" name="Libraries (${value})" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.libraries.libraries" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_rte.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_sync.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/emos_tc397.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_emos.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_emdc.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_emos.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/em_lsad_tc397_lib_vehmsg.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/lib_uss_cdd.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/lib_swc/lib_adas.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/lib_swc/mcu_ultrasonic_algo.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/lib_swc/lib_ultrasonic_service.a}&quot;"/>
+								</option>
+								<option id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.linkerScript.localmigration" name="Linker script (--lsl-file=&quot;${value}&quot;)" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.linkerScript" value="../LinkerFiles/Lcf_Tasking_Tricore_Tc.lsl" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.otherOptions.localmigration" name="Other options" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.otherOptions" valueType="stringList">
+									<listOptionValue builtIn="false" value="-lrt"/>
+									<listOptionValue builtIn="false" value="-lfp_fpu"/>
+									<listOptionValue builtIn="false" value="-lcpsx_fpu"/>
+									<listOptionValue builtIn="false" value="-lcs_fpu"/>
+									<listOptionValue builtIn="false" value="--lsl-core=vtc"/>
+								</option>
+							</tool>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.27729650" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.504366">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.504366" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.504366" name="Release" parent="com.infineon.aurix.buildsystem.managed.configuration.binary.release">
+					<folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.504366." name="/" resourcePath="">
+						<toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release.1341571491" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release">
+							<option id="com.tasking.ctc.cpu.1795863586" name="Processor" superClass="com.tasking.ctc.cpu" value="tc39xb" valueType="string"/>
+							<option id="com.tasking.ctc.package.1777210527" name="Device package" superClass="com.tasking.ctc.package" value="lfbga516" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.11049730" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/em_lsad_tc397}/Release" id="com.infineon.aurix.buildsystem.managed.tasking.builder.1452152597" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release.2029629022" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.1148863769" name="Defined symbols" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__CPU__=tc39xb"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1443656198" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/lib_emos/emos_mcu/emcu_application/mcumcu/}&quot;"/>
+								</option>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.526008234" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.1895556381" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+							</tool>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.1125386107" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths.1980615376" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/em_lsad_tc397/lib_inc/lib_emos/emos_mcu/emcu_application/mcumcu/}&quot;"/>
+								</option>
+								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.1844737797" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+							</tool>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.1103242412" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking"/>
+							<tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.1621240555" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="em_lsad_tc397.com.infineon.aurix.buildsystem.managed.projectType.188743755" name="AURIX Project" projectType="com.infineon.aurix.buildsystem.managed.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.594834499;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.594834499.;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.1722033556;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.861419198">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1820751942;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1820751942.;com.infineon.aurix.buildsystem.managed.tool.c.compiler.1875935141;com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.206016931">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.594834499;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.594834499.;com.infineon.aurix.buildsystem.managed.tool.c.compiler.610711605;com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.1874553424">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1820751942;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1820751942.;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.1321574306;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.875528763">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.dbg.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.dbg.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.dbg.ctc.cpplanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.dbg.ctc.cpplanguage"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="External GCC - Debug">
+			<resource resourceType="PROJECT" workspacePath="/em_lsad_tc397"/>
+		</configuration>
+		<configuration configurationName="External GCC - Release">
+			<resource resourceType="PROJECT" workspacePath="/em_lsad_tc397"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/em_lsad_tc397"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/em_lsad_tc397"/>
+		</configuration>
+	</storageModule>
+</cproject>
